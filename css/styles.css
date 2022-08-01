@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Helvetica;
-  color: #323232;
+  color: #fff;
   border: none;
 }
 
@@ -29,7 +29,7 @@ a:hover {
 
 /* container login */
 #login-container {
-  background-color: #FFF;
+  background-color: #232427;
   margin-left: auto;
   margin-right: auto;
   width: 400px;
@@ -72,6 +72,11 @@ input:focus {
   text-align: right;
 }
 
+input{
+  background-color: #DADEE7;
+  color: #000;
+}
+
 input[type="submit"] {
   text-align: center;
   text-transform: uppercase;
@@ -81,13 +86,19 @@ input[type="submit"] {
   margin-top: 30px;
   cursor: pointer;
   color: #FFF;
-  background-color: #08558B;
+  background-color: #606169;
   font-weight: bold;
 }
 
 input[type="submit"]:hover {
   background-color: #1B223C;
   transition: .5s;
+}
+
+footer{
+  color: #fff;
+  position: absolute; 
+  bottom: 0; 
 }
 
 /* redes sociais */
@@ -114,6 +125,11 @@ input[type="submit"]:hover {
 
 .fa-linkedin {
   background-color: #0077B5;
+}
+
+button{
+  color: #fff;
+  
 }
 
 /* registrar */
